@@ -1,0 +1,188 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:5:25: object annotation is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.annotation.Since[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:6:8: object Transformer is not a member of package org.apache.spark.ml[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.Transformer[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:7:28: object attribute is not a member of package org.apache.spark.ml[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.attribute.BinaryAttribute[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:8:28: object linalg is not a member of package org.apache.spark.ml[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.linalg._[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:9:28: object param is not a member of package org.apache.spark.ml[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.param._[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:10:28: object param is not a member of package org.apache.spark.ml[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.param.shared.{HasInputCol, HasOutputCol}[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:11:28: object util is not a member of package org.apache.spark.ml[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.util._[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:12:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql._[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:13:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions._[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:14:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types._[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:18:3: not found: type Transformer[0m
+[0m[[0m[31merror[0m] [0m[0m  Transformer with HasInputCol with HasOutputCol with DefaultParamsWritable {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:18:20: not found: type HasInputCol[0m
+[0m[[0m[31merror[0m] [0m[0m  Transformer with HasInputCol with HasOutputCol with DefaultParamsWritable {[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:18:37: not found: type HasOutputCol[0m
+[0m[[0m[31merror[0m] [0m[0m  Transformer with HasInputCol with HasOutputCol with DefaultParamsWritable {[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:18:55: not found: type DefaultParamsWritable[0m
+[0m[[0m[31merror[0m] [0m[0m  Transformer with HasInputCol with HasOutputCol with DefaultParamsWritable {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:21:19: not found: value Identifiable[0m
+[0m[[0m[31merror[0m] [0m[0m  def this()=this(Identifiable.randomUID("Abs"))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:24:47: not found: value set[0m
+[0m[[0m[31merror[0m] [0m[0m  def setInputCol(value: String): this.type = set(inputCol, value)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:24:51: not found: value inputCol[0m
+[0m[[0m[31merror[0m] [0m[0m  def setInputCol(value: String): this.type = set(inputCol, value)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:27:48: not found: value set[0m
+[0m[[0m[31merror[0m] [0m[0m  def setOutputCol(value: String): this.type = set(outputCol, value)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:27:52: not found: value outputCol[0m
+[0m[[0m[31merror[0m] [0m[0m  def setOutputCol(value: String): this.type = set(outputCol, value)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:30:48: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  override def transform(dataset: Dataset[_]): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:30:35: not found: type Dataset[0m
+[0m[[0m[31merror[0m] [0m[0m  override def transform(dataset: Dataset[_]): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:31:16: not found: value udf[0m
+[0m[[0m[31merror[0m] [0m[0m    val to_abs=udf{in:Double => if (in>0.0) in else -in}[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:44:53: not found: type StructType[0m
+[0m[[0m[31merror[0m] [0m[0m  override def transformSchema(schema: StructType): StructType ={[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:44:40: not found: type StructType[0m
+[0m[[0m[31merror[0m] [0m[0m  override def transformSchema(schema: StructType): StructType ={[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:42:28: not found: type ParamMap[0m
+[0m[[0m[31merror[0m] [0m[0m  override def copy(extra: ParamMap): Abs = defaultCopy(extra)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:42:45: not found: value defaultCopy[0m
+[0m[[0m[31merror[0m] [0m[0m  override def copy(extra: ParamMap): Abs = defaultCopy(extra)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:46:23: not found: value $[0m
+[0m[[0m[31merror[0m] [0m[0m    val outputColName=$(outputCol)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:46:25: not found: value outputCol[0m
+[0m[[0m[31merror[0m] [0m[0m    val outputColName=$(outputCol)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:48:16: not found: type StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    val outCol:StructField=StructField(outputColName,inputType)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:48:28: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    val outCol:StructField=StructField(outputColName,inputType)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:50:5: not found: value StructType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructType(schema:+outCol)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:57:21: not found: type DefaultParamsReadable[0m
+[0m[[0m[31merror[0m] [0m[0mobject Abs extends  DefaultParamsReadable[Abs]{[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/Abs.scala:58:48: value load is not a member of AnyRef[0m
+[0m[[0m[31merror[0m] [0m[0m  override def load(path: String): Abs = super.load(path)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/constru.scala:14:7: a pure expression does nothing in statement position; multiline expressions might require enclosing parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m    p.inage[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/custom_tranform.scala:4:8: object HashingTF is not a member of package org.apache.spark.ml.feature[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.feature.HashingTF[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/custom_tranform.scala:5:8: object UnaryTransformer is not a member of package org.apache.spark.ml[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.UnaryTransformer[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/custom_tranform.scala:6:28: object util is not a member of package org.apache.spark.ml[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.util.Identifiable[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/custom_tranform.scala:7:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types.{DataType, StringType}[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/custom_tranform.scala:10:11: not found: type UnaryTransformer[0m
+[0m[[0m[31merror[0m] [0m[0m  extends UnaryTransformer[String, String, UpperTransformer] {[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/custom_tranform.scala:12:21: not found: value Identifiable[0m
+[0m[[0m[31merror[0m] [0m[0m  def this() = this(Identifiable.randomUID("upp"))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/custom_tranform.scala:18:42: not found: type DataType[0m
+[0m[[0m[31merror[0m] [0m[0m  override protected def outputDataType: DataType = StringType[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/custom_tranform.scala:18:53: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m  override protected def outputDataType: DataType = StringType[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/mllazy.scala:15:7: a pure expression does nothing in statement position; multiline expressions might require enclosing parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m    a.name[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/sp.scala:4:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/sp.scala:11:26: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val sqlContext = new SparkSession.Builder().master("local").appName("test").getOrCreate()[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:5:8: object Binarizer is not a member of package org.apache.spark.ml.feature[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.feature.Binarizer[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:6:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:7:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types._[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:10:10: object Pipeline is not a member of package org.apache.spark.ml[0m
+[0m[[0m[31merror[0m] [0m[0mimport   org.apache.spark.ml.{Pipeline,PipelineModel}[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:36:15: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val spark=SparkSession.builder().master("local").getOrCreate()[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:45:19: not found: type Binarizer[0m
+[0m[[0m[31merror[0m] [0m[0m    val binarizer:Binarizer=new Binarizer().setInputCol("feature").setOutputCol("binaray_feature")[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:45:33: not found: type Binarizer[0m
+[0m[[0m[31merror[0m] [0m[0m    val binarizer:Binarizer=new Binarizer().setInputCol("feature").setOutputCol("binaray_feature")[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:54:18: not found: type Pipeline[0m
+[0m[[0m[31merror[0m] [0m[0m    val pip =new Pipeline().setStages(Array(abss,binarizer))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:66:18: not found: value PipelineModel[0m
+[0m[[0m[31merror[0m] [0m[0m    val pipmodel=PipelineModel.load("./test.model")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:83:16: not found: type StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    val sf=new StructField("name",StringType)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:83:35: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m    val sf=new StructField("name",StringType)[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:88:18: not found: value StructType[0m
+[0m[[0m[31merror[0m] [0m[0m    val  struct =StructType(List([0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:89:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("name",StringType),[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:89:26: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("name",StringType),[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:90:7: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("age",IntegerType)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:90:25: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m      StructField("age",IntegerType)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/weiyudang/Documents/learn_code/spark_learning/src/main/scala/com/autohome/chapter01/test12.scala:95:5: not found: value StructType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructType(struct.fields:+ StructField("a",StringType))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m60 errors found[0m

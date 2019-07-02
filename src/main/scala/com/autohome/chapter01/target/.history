@@ -1,0 +1,16 @@
+run test12
+run 
+run test12
+ls
+cd ..
+l
+complile
+compile
+sbt clean
+clean assembly
+clean
+assembly
+help
+projects
+show
+package
