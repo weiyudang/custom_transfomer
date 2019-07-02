@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.Abs","timestamp":1562056139452,"sparkVersion":"2.0.2","uid":"Abs_4a6f964322a9b8ec5f42","paramMap":{"outputCol":"abs_feature","inputCol":"random"}}

@@ -62,4 +62,15 @@ spark-submit
 spark-submit --master local    py4jDemo.py 
 ```
 
+### 本地测试py4j 
+```bash
+java -cp py4jDemo-1.0-SNAPSHOT.jar:ml-1.0-SNAPSHOT.jar:.  -Djava.ext.dirs=.  -jar py4jDemo-1.0-SNAPSHOT.jar 
+```
+- 根目录 com  打包给py4jDemo-1.0-SNAPSHOT.jar
+- main class  是 StackEntryPoint
+- 运行命令
+- python 通过JavaGateway 进行访问。例子在py4jDemo中
+
+> pyspark 中不需要显式的启动JavaGateWay pyspark 默认启动一个空entrypoint的gateway
+
 
